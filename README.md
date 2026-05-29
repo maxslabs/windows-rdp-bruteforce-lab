@@ -6,6 +6,12 @@ This project simulates a real-world brute force attack against a Windows Remote 
 
 The goal is to replicate attacker behavior, observe Windows security telemetry, and map observed activity to MITRE ATT&CK techniques.
 
+## Attack Flow Diagram
+
+The diagram below illustrates the end-to-end attack chain from reconnaissance through brute-force authentication attempts and Windows Security log detection.
+
+![RDP Brute Force Attack Flow](./diagrams/attack-flow.png)
+
 ---
 
 ## Objectives
@@ -131,6 +137,3 @@ All evidence is stored in the `/evidence` directory:
 - Graphviz (attack flow diagram generation)
 
 ---
-
-## Repository Structure
-
