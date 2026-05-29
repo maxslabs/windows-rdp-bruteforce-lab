@@ -1,0 +1,18 @@
+digraph SOC_Lab {
+
+    rankdir=LR;
+
+    node [shape=box, style=filled, fillcolor=lightgray];
+
+    Kali [label="Kali Linux\n(Attacker)"];
+    RDP [label="RDP Brute Force\nPort 3389"];
+    Windows [label="Windows Server 2022\n(Target)"];
+
+    Logs [label="Event Viewer Logs\nEvent ID 4625\nNTLM Authentication"];
+    SOC [label="SOC Analyst\nDetection & Analysis"];
+
+    Kali -> RDP;
+    RDP -> Windows;
+    Windows -> Logs;
+    Logs -> SOC;
+}
