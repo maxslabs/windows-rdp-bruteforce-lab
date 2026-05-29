@@ -10,7 +10,7 @@ The goal is to replicate attacker behavior, observe Windows security telemetry, 
 
 The diagram below illustrates the end-to-end attack chain from reconnaissance through brute-force authentication attempts and Windows Security log detection.
 
-![RDP Brute Force Attack Flow](./diagrams/attack-flow.png)
+![RDP Brute Force Attack Flow](./diagrams/soc-attack.png)
 
 ---
 
@@ -50,16 +50,6 @@ This simulates:
 - Credential stuffing
 - Password spraying
 - Brute-force authentication attacks
-
----
-
-## Attack Flow Diagram
-
-The following diagram illustrates the full attack lifecycle from reconnaissance to failed authentication attempts and logging:
-
-![RDP Brute Force Attack Flow](./diagrams/attack-flow.png)
-
-> Diagram generated using Graphviz on Linux as part of the lab documentation process.
 
 ---
 
