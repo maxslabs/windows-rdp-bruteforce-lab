@@ -1,0 +1,5 @@
+RDP brute force simulation:
+
+nmap -p 3389 <target-ip>
+
+xfreerdp /v:<target-ip> /u:Administrator /p:WrongPassword123 /cert:ignore
