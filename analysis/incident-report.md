@@ -31,3 +31,9 @@ Multiple failed authentication attempts were detected on the Windows Server.
 
 ## Conclusion
 The system successfully logged and detected repeated failed authentication attempts consistent with brute force activity.
+
+## MITRE ATT&CK Mapping
+
+- Tactic: Credential Access
+- Technique: T1110 - Brute Force
+- Sub-technique: T1110.001 - Password Guessing (RDP)
